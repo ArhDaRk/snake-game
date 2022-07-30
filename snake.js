@@ -126,7 +126,7 @@ function resWin(){
     canva.height = canva.width/2
 };
 
-setInterval(preview,300);
+setInterval(preview,300); //speed
 
 window.addEventListener('resize', resWin);
 
