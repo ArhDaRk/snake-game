@@ -126,6 +126,8 @@ function resWin(){
     canva.height = canva.width/2
 };
 
+setInterval(preview,300);
+
 window.addEventListener('resize', resWin);
 
 window.addEventListener("keydown", function(){     // Чтение стрелок управления
